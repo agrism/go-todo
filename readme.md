@@ -65,34 +65,35 @@ Document Path:          /person/1
 Document Length:        58 bytes
 
 Concurrency Level:      30
-Time taken for tests:   664.587 seconds
+Time taken for tests:   615.684 seconds
 Complete requests:      100000
 Failed requests:        0
 Keep-Alive requests:    100000
 Total transferred:      19000000 bytes
 HTML transferred:       5800000 bytes
-Requests per second:    150.47 [#/sec] (mean)
-Time per request:       199.376 [ms] (mean)
-Time per request:       6.646 [ms] (mean, across all concurrent requests)
-Transfer rate:          27.92 [Kbytes/sec] received
+Requests per second:    162.42 [#/sec] (mean)
+Time per request:       184.705 [ms] (mean)
+Time per request:       6.157 [ms] (mean, across all concurrent requests)
+Transfer rate:          30.14 [Kbytes/sec] received
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       2
-Processing:     7  199  69.3    196    1406
-Waiting:        7  199  69.3    196    1406
-Total:          7  199  69.3    196    1406
+Processing:     9  185  64.1    191     696
+Waiting:        9  185  64.1    191     696
+Total:          9  185  64.1    191     696
 
 Percentage of the requests served within a certain time (ms)
-  50%    196
-  66%    205
-  75%    214
-  80%    229
-  90%    291
-  95%    304
-  98%    381
-  99%    398
- 100%   1406 (longest request)
+  50%    191
+  66%    200
+  75%    207
+  80%    213
+  90%    283
+  95%    297
+  98%    313
+  99%    379
+ 100%    696 (longest request)
+
 ```
 
 ### 2. Write test
@@ -119,35 +120,36 @@ Document Path:          /person
 Document Length:        73 bytes
 
 Concurrency Level:      30
-Time taken for tests:   720.999 seconds
+Time taken for tests:   709.041 seconds
 Complete requests:      100000
 Failed requests:        0
 Keep-Alive requests:    100000
 Total transferred:      20500000 bytes
 Total body sent:        22400000
 HTML transferred:       7300000 bytes
-Requests per second:    138.70 [#/sec] (mean)
-Time per request:       216.300 [ms] (mean)
-Time per request:       7.210 [ms] (mean, across all concurrent requests)
-Transfer rate:          27.77 [Kbytes/sec] received
-                        30.34 kb/s sent
-                        58.11 kb/s total
+Requests per second:    141.04 [#/sec] (mean)
+Time per request:       212.712 [ms] (mean)
+Time per request:       7.090 [ms] (mean, across all concurrent requests)
+Transfer rate:          28.23 [Kbytes/sec] received
+                        30.85 kb/s sent
+                        59.09 kb/s total
 
 Connection Times (ms)
               min  mean[+/-sd] median   max
 Connect:        0    0   0.0      0       2
-Processing:    13  216  67.5    203     817
-Waiting:       11  216  67.5    203     817
-Total:         13  216  67.5    203     817
+Processing:    14  213  67.8    202    1291
+Waiting:       13  213  67.8    202    1291
+Total:         15  213  67.8    202    1291
 
 Percentage of the requests served within a certain time (ms)
-  50%    203
-  66%    216
-  75%    278
-  80%    285
-  90%    299
-  95%    311
-  98%    386
-  99%    398
- 100%    817 (longest request)
+  50%    202
+  66%    213
+  75%    272
+  80%    282
+  90%    297
+  95%    309
+  98%    383
+  99%    395
+ 100%   1291 (longest request)
+
 ```
