@@ -33,7 +33,7 @@ curl --header "Content-Type: application/json" \
 curl --request GET http://127.0.0.1:8089/person
 ```
 
-#### 3. Read all record
+#### 3. Read one record
 
 ```bash
 curl --request GET http://127.0.0.1:8089/person/1
