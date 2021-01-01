@@ -124,7 +124,8 @@ func POSTHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {
 	}
 	defer stmt.Close()
 
-	var person Person;
+	var person Person
+
 	err = stmt.QueryRow(p.Name, p.Nickname).Scan(&person.Id, &person.Name, &person.Nickname)
 	if err != nil {
 		panic(err)
